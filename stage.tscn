@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://bc1nc2i0jjbm0"]
+
+[ext_resource type="PackedScene" uid="uid://11p3sn875xsw" path="res://Ai/ai.tscn" id="1_6eo5e"]
+[ext_resource type="Script" uid="uid://b3fuqkejda0sp" path="res://God.gd" id="1_aees8"]
+
+[node name="God" type="Node2D"]
+script = ExtResource("1_aees8")
+
+[node name="Ai" parent="." instance=ExtResource("1_6eo5e")]
+
+[node name="Ai2" parent="." instance=ExtResource("1_6eo5e")]
+position = Vector2(484, 155)
+
+[node name="Ai3" parent="." instance=ExtResource("1_6eo5e")]
+position = Vector2(207, 318)
+
+[node name="Ai4" parent="." instance=ExtResource("1_6eo5e")]
+position = Vector2(712, 378)
